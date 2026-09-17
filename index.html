@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be'Cause — Agence Web Indépendante | Hauts-de-France</title>
+  <meta name="description" content="Agence web à Lens. Nous concevons pour les TPE, PME et artisans des Hauts-de-France des sites web solides, rapides, durables et 100% propriétaires.">
+  
+  <!-- Typographies Google Fonts : Outfit (Titres nets et architecturaux) & Plus Jakarta Sans (Corps lisible et aéré) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- En-tête Flottant en Pilule Dépolie -->
+  <header class="header-wrapper" id="mainHeader">
+    <nav class="pill-navbar">
+      <a href="#hero" class="brand-logo" aria-label="Be'Cause agence web">
+        <span class="logo-text">Be'Cause</span>
+        <span class="logo-dot"></span>
+      </a>
+
+      <div class="nav-links-wrapper" id="navLinks">
+        <a href="#manifeste" class="nav-link">L'Approche</a>
+        <a href="#chantiers" class="nav-link">Chantiers</a>
+        <a href="#atelier" class="nav-link">L'Atelier des 6</a>
+        <a href="#simulateur" class="nav-link">Simulateur de Devis</a>
+      </div>
+
+      <div class="nav-actions">
+        <div class="status-pill" title="Disponibilité actuelle de l'équipe">
+          <span class="status-indicator"></span>
+          <span class="status-text">2 chantiers disponibles ce trimestre</span>
+        </div>
+        <a href="#simulateur" class="btn btn-pill btn-primary btn-sm">
+          <span>Estimer un projet</span>
+          <svg class="icon-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu mobile">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SECTION HERO : Immersion Aérée & Composition Équilibrée (2 Colonnes) -->
+    <section class="hero-section" id="hero">
+      <div class="hero-atmosphere"></div>
+      <div class="container">
+        
+        <div class="hero-grid">
+          
+          <!-- Colonne Gauche : Typographie Monumentale Épurée & Clarté -->
+          <div class="hero-content-col">
+            
+            <div class="hero-kicker-badge">
+              <span class="badge-dot-accent"></span>
+              <span>Lens &amp; Hauts-de-France • Atelier Web Indépendant</span>
+            </div>
+
+            <h1 class="hero-headline">
+              Bâtir des architectures web solides, durables et à vous.
+            </h1>
+
+            <p class="hero-lead">
+              Six artisans du code réunis à Lens. Nous donnons aux TPE, PME et artisans de notre région le site web qu'ils méritent : <strong>100% propriétaire, rapide et conçu sans jargon ni abonnement captif.</strong>
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#simulateur" class="btn btn-pill btn-accent btn-lg">
+                <span>Simuler le coût de votre projet</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#chantiers" class="btn btn-pill btn-secondary btn-lg">
+                <span>Découvrir nos chantiers</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+              </a>
+            </div>
+
+            <!-- Points de réassurance limpides -->
+            <div class="hero-reassurance-row">
+              <div class="reassurance-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Code 100% propriétaire</span>
+              </div>
+              <div class="reassurance-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Zéro abonnement forcé</span>
+              </div>
+              <div class="reassurance-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Accompagnement local</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Colonne Droite : Cadre Visuel Sculptural Intégré -->
+          <div class="hero-visual-col">
+            <div class="hero-visual-card">
+              <img src="./assets/hero.jpg" alt="Matière brute et courbure douce — L'esthétique Be'Cause" class="hero-card-img" loading="eager">
+              
+              <!-- Badge Flottant Discret -->
+              <div class="hero-floating-pill">
+                <span class="pill-dot-green"></span>
+                <div>
+                  <strong>Standard 99/100</strong>
+                  <span>Performance &amp; éco-conception native</span>
+                </div>
+              </div>
+
+              <div class="hero-card-footer">
+                <span>Atelier Be'Cause • Lens</span>
+                <span>Projet Tuteuré MMI</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION MANIFESTE : L'Antidote aux agences classiques (Aéré, Hiérarchie Limpide) -->
+    <section class="section manifesto-section" id="manifeste">
+      <div class="container">
+        
+        <div class="manifesto-grid">
+          <!-- Colonne Gauche : L'Intention Forte -->
+          <div class="manifesto-intro">
+            <span class="section-kicker">[ 01 — L'APPROCHE ]</span>
+            <h2 class="section-title">
+              L'antidote aux agences qui vous enferment.
+            </h2>
+            <p class="manifesto-narrative">
+              Dans notre région, trop d'artisans et de dirigeants ont vécu la même déconvenue : un contrat sur 48 mois à 150 € par mois pour un site obsolète dont ils ne possèdent même pas les accès.
+            </p>
+            <p class="manifesto-narrative">
+              Nous avons fondé <strong>Be'Cause</strong> pour poser une alternative saine : du travail sur-mesure, des échanges clairs autour d'une table, et la certitude absolue de repartir avec un outil solide qui vous appartient à 100%.
+            </p>
+            
+            <div class="manifesto-quote-card">
+              <p>« Un artisan a besoin d'un site qui lui ramène des chantiers concrets, pas d'un discours d'agence parisienne à 10 000 euros. »</p>
+              <div class="quote-author">— Matéo, Chef de Projet &amp; Co-fondateur</div>
+            </div>
+          </div>
+
+          <!-- Colonne Droite : Les 3 Piliers de Clarté -->
+          <div class="manifesto-pillars">
+            
+            <div class="pillar-item">
+              <div class="pillar-header">
+                <span class="pillar-num">01</span>
+                <h3 class="pillar-title">Propriété intégrale &amp; autonomie</h3>
+              </div>
+              <p class="pillar-desc">
+                Vous êtes l'unique propriétaire de votre nom de domaine, de vos lignes de code et de vos contenus. Si vous souhaitez faire évoluer votre site seul ou changer de prestataire, nous vous remettons l'ensemble des clés en main sans aucune retenue.
+              </p>
+              <div class="pillar-meta">
+                <span class="meta-pill">Zéro engagement forcé</span>
+                <span class="meta-pill">Code source fourni</span>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-header">
+                <span class="pillar-num">02</span>
+                <h3 class="pillar-title">Clarté radicale, zéro jargon</h3>
+              </div>
+              <p class="pillar-desc">
+                Pas de termes abscons pour justifier des factures gonflées. Nos devis détaillent chaque brique fonctionnelle et son utilité directe pour votre activité. Vous savez exactement ce que vous achetez, à quel prix et pour quel résultat.
+              </p>
+              <div class="pillar-meta">
+                <span class="meta-pill">Devis à prix fixe</span>
+                <span class="meta-pill">Paiement échelonné possible</span>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-header">
+                <span class="pillar-num">03</span>
+                <h3 class="pillar-title">Proximité réelle &amp; présence terrain</h3>
+              </div>
+              <p class="pillar-desc">
+                Nous ne sommes pas une plateforme virtuelle. Nous venons vous rencontrer dans votre atelier, sur vos chantiers ou dans vos locaux de Lens à Lille pour comprendre la réalité de votre métier avant d'écrire la première ligne de code.
+              </p>
+              <div class="pillar-meta">
+                <span class="meta-pill">Interlocuteur dédié</span>
+                <span class="meta-pill">Visite sur site incluse</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION CHANTIERS : Galerie Aérée & Asymétrique -->
+    <section class="section works-section" id="chantiers">
+      <div class="container">
+        
+        <div class="section-header-split">
+          <div>
+            <span class="section-kicker">[ 02 — CHANTIERS SÉLECTIONNÉS ]</span>
+            <h2 class="section-title">
+              Des réalisations pensées pour durer.
+            </h2>
+          </div>
+          <p class="section-header-lead">
+            Chaque interface est taillée sur-mesure pour refléter la valeur et le savoir-faire des entreprises de notre territoire.
+          </p>
+        </div>
+
+        <!-- Filtres en pilules douces -->
+        <div class="filter-pills-row" id="projectFilters">
+          <button class="filter-pill active" data-filter="all">Tous les chantiers</button>
+          <button class="filter-pill" data-filter="artisanat">Artisanat &amp; Métiers d'Art</button>
+          <button class="filter-pill" data-filter="terroir">Gastronomie &amp; Terroir</button>
+          <button class="filter-pill" data-filter="architecture">Architecture &amp; Espaces</button>
+        </div>
+
+        <!-- Galerie Éditoriale Asymétrique -->
+        <div class="works-editorial-layout">
+
+          <!-- Chantier 01 : Menuiserie Dubois -->
+          <article class="work-feature-row" data-category="artisanat">
+            <div class="work-visual-column">
+              <div class="work-image-card" data-project-id="dubois">
+                <img src="./assets/project-wood.jpg" alt="Atelier Dubois Menuiserie sur mesure à Béthune" class="work-img" loading="lazy">
+                <div class="work-hover-overlay">
+                  <span class="btn btn-pill btn-light">Examiner le cas d'étude</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="work-info-column">
+              <div class="work-index">01 / ARTISANAT DU BOIS</div>
+              <h3 class="work-title">
+                Atelier Dubois &amp; Agencement
+              </h3>
+              <p class="work-summary">
+                Refonte intégrale pour un artisan ébéniste-agenceur près de Béthune. Remplacement d'un site non-adapté aux mobiles par une vitrine épurée qui met en valeur la matière brute du chêne massif et les finitions d'escaliers contemporains.
+              </p>
+              
+              <div class="work-metrics-box">
+                <div class="metric-unit">
+                  <span class="metric-val">+340%</span>
+                  <span class="metric-label">Demandes de devis en 3 mois</span>
+                </div>
+                <div class="metric-unit">
+                  <span class="metric-val">0.7s</span>
+                  <span class="metric-label">Affichage instantané mobile</span>
+                </div>
+                <div class="metric-unit">
+                  <span class="metric-val">1er</span>
+                  <span class="metric-label">Sur « Menuisier agenceur Béthune »</span>
+                </div>
+              </div>
+
+              <div class="work-tags-list">
+                <span class="tag-chip">Site Vitrine Sur-mesure</span>
+                <span class="tag-chip">Référencement Local (SEO)</span>
+                <span class="tag-chip">Formulaire de Devis Calibré</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Chantier 02 : Maison Brasseur -->
+          <article class="work-feature-row row-reverse" data-category="terroir">
+            <div class="work-visual-column">
+              <div class="work-image-card" data-project-id="brasseur">
+                <img src="./assets/project-brewery.jpg" alt="Maison Brasseur microbrasserie artisanale des Hauts de France" class="work-img" loading="lazy">
+                <div class="work-hover-overlay">
+                  <span class="btn btn-pill btn-light">Examiner le cas d'étude</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="work-info-column">
+              <div class="work-index">02 / TERROIR &amp; SAVOIR-FAIRE</div>
+              <h3 class="work-title">
+                Maison Brasseur des Flandres
+              </h3>
+              <p class="work-summary">
+                Conception d'une vitrine chaleureuse et authentique pour une brasserie indépendante. Intégration d'un module interactif pour localiser les cavistes revendeurs et d'un système fluide de réservation des visites guidées des cuves.
+              </p>
+
+              <div class="work-metrics-box">
+                <div class="metric-unit">
+                  <span class="metric-val">100%</span>
+                  <span class="metric-label">Score d'accessibilité RGAA</span>
+                </div>
+                <div class="metric-unit">
+                  <span class="metric-val">1 200+</span>
+                  <span class="metric-label">Visites d'atelier réservées en ligne</span>
+                </div>
+                <div class="metric-unit">
+                  <span class="metric-val">100%</span>
+                  <span class="metric-label">Autonomie du client sur le contenu</span>
+                </div>
+              </div>
+
+              <div class="work-tags-list">
+                <span class="tag-chip">Carte Interactive</span>
+                <span class="tag-chip">Prise de Rendez-vous</span>
+                <span class="tag-chip">Direction Artistique Épurée</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Chantier 03 : Studio Vanhove -->
+          <article class="work-feature-row work-panoramic" data-category="architecture">
+            <div class="work-visual-column full-width-column">
+              <div class="work-image-card card-panoramic" data-project-id="vanhove">
+                <img src="./assets/project-architecture.jpg" alt="Studio Vanhove collectif d'architectes à Lille" class="work-img" loading="lazy">
+                <div class="work-hover-overlay">
+                  <span class="btn btn-pill btn-light">Examiner le cas d'étude</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="work-info-panoramic">
+              <div class="panoramic-top">
+                <div class="work-index">03 / ARCHITECTURE &amp; RÉHABILITATION</div>
+                <h3 class="work-title">
+                  Studio Vanhove Architectes Associés
+                </h3>
+              </div>
+              <div class="panoramic-body">
+                <p class="work-summary">
+                  Une scénographie numérique sobre mettant en valeur la réhabilitation de bâtiments industriels du Nord en lofts contemporains. Typographie architecturale tendue, transitions feutrées et fluidité absolue multi-supports.
+                </p>
+                <div class="work-tags-list">
+                  <span class="tag-chip">Architecture Éditoriale</span>
+                  <span class="tag-chip">Galerie Grand Format</span>
+                  <span class="tag-chip">Transitions Feutrées</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION L'ATELIER : L'Équipe des 6 -->
+    <section class="section team-section" id="atelier">
+      <div class="container">
+        
+        <div class="team-header-box">
+          <span class="section-kicker">[ 03 — LES ARTISANS DU CODE ]</span>
+          <h2 class="section-title">
+            Six créateurs réunis, zéro intermédiaire.
+          </h2>
+          <p class="team-header-lead">
+            Pas de commerciaux qui vous promettent la lune pour sous-traiter au rabais. Chez Be'Cause, vous discutez directement avec les 6 spécialistes qui conçoivent votre identité et écrivent votre code.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          
+          <!-- Membre 1 : Matéo -->
+          <div class="team-card">
+            <div class="team-avatar-initials">M</div>
+            <div class="team-meta">
+              <span class="team-role">Chef de Projet &amp; Architecte Back</span>
+              <h3 class="team-name">Matéo</h3>
+              <p class="team-bio">
+                Votre interlocuteur principal. Il cadre vos besoins réels, veille au respect scrupuleux des délais et conçoit des architectures solides orientées référencement local (SEO).
+              </p>
+              <div class="team-skill-tags">
+                <span>Gestion de Projet</span>
+                <span>SEO Local</span>
+                <span>Architecture Back</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Membre 2 : Nathanaël -->
+          <div class="team-card team-card-featured">
+            <div class="team-badge-lead">Design d'interaction</div>
+            <div class="team-avatar-initials">N</div>
+            <div class="team-meta">
+              <span class="team-role">Responsable Front-End &amp; Intégration</span>
+              <h3 class="team-name">Nathanaël</h3>
+              <p class="team-bio">
+                Passionné de proportions typographiques et d'expériences fluides. Il transforme la maquette graphique en une interface vivante, réactive et ergonomique.
+              </p>
+              <div class="team-skill-tags">
+                <span>Développement Front</span>
+                <span>Animations Fluides</span>
+                <span>Typographie &amp; CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Membre 3 : Nicolas -->
+          <div class="team-card">
+            <div class="team-avatar-initials">N</div>
+            <div class="team-meta">
+              <span class="team-role">Directeur Artistique UI / UX</span>
+              <h3 class="team-name">Nicolas</h3>
+              <p class="team-bio">
+                Le regard graphique. Il conçoit des univers visuels singuliers, équilibrés entre la rigueur de la structure et la douceur des formes adoucies.
+              </p>
+              <div class="team-skill-tags">
+                <span>Direction Artistique</span>
+                <span>Prototypage UI/UX</span>
+                <span>Design System</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Membre 4 : Alexandre -->
+          <div class="team-card">
+            <div class="team-avatar-initials">A</div>
+            <div class="team-meta">
+              <span class="team-role">Développeur Fullstack &amp; Performance</span>
+              <h3 class="team-name">Alexandre</h3>
+              <p class="team-bio">
+                Exigeant sur la vitesse d'exécution. Il conçoit des fonctionnalités fiables et optimise chaque requête pour un chargement instantané sur mobile.
+              </p>
+              <div class="team-skill-tags">
+                <span>Développement Fullstack</span>
+                <span>Optimisation Vitesse</span>
+                <span>Bases de Données</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Membre 5 : Lucas -->
+          <div class="team-card">
+            <div class="team-avatar-initials">L</div>
+            <div class="team-meta">
+              <span class="team-role">Fullstack &amp; DevOps</span>
+              <h3 class="team-name">Lucas</h3>
+              <p class="team-bio">
+                Le garant de la stabilité. Il met en place des serveurs sécurisés, des certificats fiables et des systèmes de sauvegardes automatisées.
+              </p>
+              <div class="team-skill-tags">
+                <span>Infrastructure</span>
+                <span>Sécurité Web</span>
+                <span>Hébergement Fiable</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Membre 6 : Mathéo -->
+          <div class="team-card">
+            <div class="team-avatar-initials">M</div>
+            <div class="team-meta">
+              <span class="team-role">Assistant Intégration &amp; Accessibilité</span>
+              <h3 class="team-name">Mathéo</h3>
+              <p class="team-bio">
+                Veille à ce que chaque page soit parfaitement accessible et fluide sur tous les formats d'écrans, du smartphone de chantier aux écrans de bureau.
+              </p>
+              <div class="team-skill-tags">
+                <span>Intégration Web</span>
+                <span>Tests Multi-écrans</span>
+                <span>Standards Web</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="team-footer-note">
+          <span class="note-flag">📍 Ancrage local</span>
+          <span>Issus du département MMI de l'IUT de Lens. Fonctionnement en concertation démocratique, rigueur technique et engagement direct auprès des entreprises de notre région.</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION SIMULATEUR DE PROJET : Transparence Totale -->
+    <section class="section estimator-section" id="simulateur">
+      <div class="container">
+        
+        <div class="estimator-header">
+          <span class="section-kicker">[ 04 — LA CLARTÉ COMME VALEUR ]</span>
+          <h2 class="section-title">
+            Simulateur d'investissement sans surprise.
+          </h2>
+          <p class="estimator-lead">
+            Fini le flou des devis d'agences. Configurez votre besoin pour obtenir en temps réel une estimation réaliste, le délai cible de livraison et nos engagements fermes.
+          </p>
+        </div>
+
+        <div class="estimator-box">
+          
+          <!-- Configuration -->
+          <div class="estimator-controls">
+            
+            <!-- Étape 1 : Format du site -->
+            <div class="control-group">
+              <label class="control-label">
+                <span class="step-badge">1</span>
+                <span>Type de projet &amp; envergure</span>
+              </label>
+              <div class="pill-options-grid" id="projectTypeOptions">
+                <button type="button" class="option-pill active" data-type="vitrine-pro" data-base-price="1800" data-weeks="3">
+                  <span class="option-title">Site Vitrine Essentiel</span>
+                  <span class="option-sub">3 à 5 pages • Idéal artisans &amp; indépendants</span>
+                </button>
+                <button type="button" class="option-pill" data-type="vitrine-avancée" data-base-price="2800" data-weeks="4">
+                  <span class="option-title">Vitrine Métier Complète</span>
+                  <span class="option-sub">6 à 10 pages • Galeries &amp; modules spécifiques</span>
+                </button>
+                <button type="button" class="option-pill" data-type="sur-mesure" data-base-price="3800" data-weeks="6">
+                  <span class="option-title">Architecture Sur-mesure</span>
+                  <span class="option-sub">Sur-mesure complet • Réservations &amp; configurateur</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Étape 2 : Modules d'Impact -->
+            <div class="control-group">
+              <label class="control-label">
+                <span class="step-badge">2</span>
+                <span>Modules &amp; Accélérateurs à intégrer</span>
+              </label>
+              <div class="checkbox-pills-list">
+                <label class="check-pill">
+                  <input type="checkbox" id="modSeo" data-addon="350" checked>
+                  <span class="check-box-custom"></span>
+                  <div class="check-info">
+                    <strong>Référencement local renforcé (SEO Google Lens / Région)</strong>
+                    <span>Optimisation fiche Google Business + mots-clés ciblés sur votre zone</span>
+                  </div>
+                  <span class="addon-price">+350 €</span>
+                </label>
+
+                <label class="check-pill">
+                  <input type="checkbox" id="modDevis" data-addon="400" checked>
+                  <span class="check-box-custom"></span>
+                  <div class="check-info">
+                    <strong>Formulaire de devis interactif sur-mesure</strong>
+                    <span>Permet à vos prospects de qualifier précisément leur besoin avant de vous appeler</span>
+                  </div>
+                  <span class="addon-price">+400 €</span>
+                </label>
+
+                <label class="check-pill">
+                  <input type="checkbox" id="modPhoto" data-addon="450">
+                  <span class="check-box-custom"></span>
+                  <div class="check-info">
+                    <strong>Reportage photo &amp; prise de vue sur votre lieu d'activité</strong>
+                    <span>Déplacement d'une demi-journée pour photographier vos réalisations et votre équipe</span>
+                  </div>
+                  <span class="addon-price">+450 €</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Étape 3 : Sérénité & Suivi -->
+            <div class="control-group">
+              <label class="control-label">
+                <span class="step-badge">3</span>
+                <span>Modalité de suivi après mise en ligne</span>
+              </label>
+              <div class="pill-options-grid options-duo" id="maintenanceOptions">
+                <button type="button" class="option-pill active" data-maint-price="0" data-maint-label="Autonomie Totale (0 €/mois)">
+                  <span class="option-title">Autonomie complète</span>
+                  <span class="option-sub">Formation offerte • Vous gérez votre site sans frais récurrent</span>
+                </button>
+                <button type="button" class="option-pill" data-maint-price="59" data-maint-label="Sérénité Be'Cause (59 € HT/mois)">
+                  <span class="option-title">Forfait Sérénité</span>
+                  <span class="option-sub">Sauvegardes, mises à jour techniques &amp; support direct</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Bilan d'Investissement -->
+          <div class="estimator-receipt-card">
+            <div class="receipt-inner">
+              <span class="receipt-tag">ESTIMATION EN DIRECT</span>
+              <div class="receipt-price-row">
+                <div class="receipt-amount" id="totalAmount">2 550 €</div>
+                <span class="receipt-vat">HT • Paiement échelonné en 3x ou 4x sans frais</span>
+              </div>
+
+              <div class="receipt-divider"></div>
+
+              <ul class="receipt-features-list">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Délai cible : <strong id="estimatedWeeks">3 à 4 semaines</strong></span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Propriété : <strong>100% à vous</strong> (code + nom de domaine)</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span id="maintSummary">Maintenance : <strong>Autonomie totale (0 €/mois)</strong></span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Rendez-vous de cadrage <strong>sur site ou en visio</strong></span>
+                </li>
+              </ul>
+
+              <div class="receipt-cta-block">
+                <a href="#contact" class="btn btn-pill btn-accent btn-full" id="btnApplyEstimation">
+                  <span>Bloquer cette estimation &amp; échanger</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <span class="receipt-guarantee-text">
+                  Devis contractuel gratuit • Sans aucun engagement • Réponse sous 24h
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT : L'Échange Réel -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="contact-frame">
+          <div class="contact-header">
+            <span class="section-kicker">[ 05 — UN CAFÉ À L'ATELIER ]</span>
+            <h2 class="contact-title">
+              Parlons de votre entreprise autour d'une vraie table.
+            </h2>
+            <p class="contact-lead">
+              Que vous ayez un cahier des charges précis ou simplement une idée sur un carnet de chantier, nous sommes là pour vous écouter avec franchise et bienveillance.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            
+            <div class="contact-info-col">
+              <div class="info-block">
+                <div class="info-label">Où nous trouver</div>
+                <div class="info-value">
+                  <strong>Atelier Be'Cause</strong><br>
+                  IUT de Lens — Rue de l'Université<br>
+                  62300 Lens, Hauts-de-France
+                </div>
+              </div>
+
+              <div class="info-block">
+                <div class="info-label">Rayon de déplacement</div>
+                <div class="info-value">
+                  Lens, Béthune, Douai, Arras, Lille et l'ensemble du bassin minier &amp; des Flandres.
+                </div>
+              </div>
+
+              <div class="info-block">
+                <div class="info-label">Contact direct</div>
+                <div class="info-value">
+                  <a href="mailto:contact@because-lens.fr" class="direct-link">contact@because-lens.fr</a><br>
+                  <a href="tel:0123456789" class="direct-link">01 23 45 67 89</a><br>
+                  <span class="text-muted-white">Du lundi au vendredi • 9h - 18h</span>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="clientName">Votre prénom &amp; nom</label>
+                  <input type="text" id="clientName" placeholder="ex. Julien Dubois" required>
+                </div>
+                <div class="form-group">
+                  <label for="clientCompany">Votre entreprise ou métier</label>
+                  <input type="text" id="clientCompany" placeholder="ex. Dubois Menuiserie" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="clientEmail">Adresse e-mail</label>
+                  <input type="email" id="clientEmail" placeholder="julien@menuiserie-dubois.fr" required>
+                </div>
+                <div class="form-group">
+                  <label for="clientPhone">Téléphone</label>
+                  <input type="tel" id="clientPhone" placeholder="06 12 34 56 78">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="clientMessage">Votre projet en quelques mots</label>
+                <textarea id="clientMessage" rows="4" placeholder="Décrivez votre activité, vos réalisations et ce que vous souhaitez accomplir avec votre nouveau site..."></textarea>
+              </div>
+
+              <div class="form-estimation-reminder" id="formEstimationReminder">
+                <span class="reminder-icon">💡</span>
+                <span>Votre configuration issue du simulateur (<strong id="reminderAmount">2 550 € HT</strong>) sera automatiquement jointe à votre message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-pill btn-accent btn-lg btn-full" id="submitBtn">
+                <span>Envoyer notre demande d'échange</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+
+              <div class="form-feedback" id="formFeedback"></div>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- PIED DE PAGE -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top-row">
+        <div class="footer-brand-col">
+          <div class="brand-logo footer-logo">
+            <span class="logo-text">Be'Cause</span>
+            <span class="logo-dot"></span>
+          </div>
+          <p class="footer-tagline">
+            Architecture brute &amp; douceur du geste. Agence web indépendante au service des entreprises des Hauts-de-France.
+          </p>
+          <div class="footer-local-badge">
+            <span>Fait avec fierté à Lens</span>
+          </div>
+        </div>
+
+        <div class="footer-nav-col">
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-list">
+            <li><a href="#manifeste">L'Approche &amp; Valeurs</a></li>
+            <li><a href="#chantiers">Chantiers Récents</a></li>
+            <li><a href="#atelier">L'Atelier des 6</a></li>
+            <li><a href="#simulateur">Simulateur Transparent</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <div class="footer-col-title">Éthique &amp; Code</div>
+          <ul class="footer-list">
+            <li><span>Propriété 100% Client</span></li>
+            <li><span>Hébergement Éco-conçu</span></li>
+            <li><span>Performance Web Native</span></li>
+            <li><span>Démocratie d'Équipe</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <div class="footer-col-title">Rencontre</div>
+          <ul class="footer-list">
+            <li><span>contact@because-lens.fr</span></li>
+            <li><span>IUT de Lens — BUT MMI</span></li>
+            <li><a href="#contact" class="link-styled">Prendre rendez-vous →</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div class="footer-copy">
+          © 2026 Be'Cause Studio — Tous droits réservés.
+        </div>
+        <div class="footer-legal">
+          <span>Projet Tuteuré MMI 3</span>
+          <span class="separator">•</span>
+          <span>Lens, Hauts-de-France</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Modal Détail Chantier Interactif -->
+  <div class="case-modal" id="caseModal" aria-hidden="true" role="dialog">
+    <div class="case-modal-backdrop" id="modalBackdrop"></div>
+    <div class="case-modal-dialog">
+      <button class="modal-close-btn" id="modalClose" aria-label="Fermer">✕</button>
+      <div class="modal-content-slot" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
