@@ -55,53 +55,80 @@
   </header>
 
   <main>
-    <!-- SECTION HERO : Immersion Aérée & Composition Équilibrée (2 Colonnes) -->
+    <!-- ======================================================================
+         SECTION HERO : Immersion Aérée & Hiérarchie Typographique Radicale
+         ====================================================================== -->
     <section class="hero-section" id="hero">
       <div class="hero-atmosphere"></div>
       <div class="container">
         
         <div class="hero-grid">
           
-          <!-- Colonne Gauche : Typographie Monumentale Épurée & Clarté -->
+          <!-- Colonne Gauche : Hiérarchie Radicale & Alignement Rigoureux à Gauche -->
           <div class="hero-content-col">
             
-            <div class="hero-kicker-badge">
-              <span class="badge-dot-accent"></span>
-              <span>Lens &amp; Hauts-de-France • Atelier Web Indépendant</span>
+            <!-- Surtitre (Eyebrow) : Minuscule 11-12px, Tout en capitales, Tracking ouvert 0.06em -->
+            <div class="hero-eyebrow-pill">
+              <span class="activity-pulse-dot"></span>
+              <span class="eyebrow-text">DISPONIBLE POUR DE NOUVEAUX PROJETS &bull; LENS &amp; HAUTS-DE-FRANCE</span>
             </div>
 
+            <!-- Titre Principal (Hero H1 en Outfit Bold) : Massif 56-64px, Line-height ultra-compact 1.08, Tracking -0.02em -->
             <h1 class="hero-headline">
               Bâtir des architectures web solides, durables et à vous.
             </h1>
 
+            <!-- Sous-titre : Gris ardoise #5C6B7A, Medium 500, 18-20px, Interligne 1.65, Aligné à Gauche -->
             <p class="hero-lead">
-              <strong>« Parce que les entreprises de notre région méritent les mêmes standards techniques que les grandes marques. »</strong> Six passionnés du web des Hauts-de-France qui donnent aux TPE et PME locales le site qu'elles méritent, rapidement, à prix accessible (1 500 € à 4 000 €) et sans abonnement captif.
+              L'atelier digital des TPE et PME des Hauts-de-France. Nous concevons des sites vitrines sur-mesure, rapides et pérennes (1 500 € à 4 000 €) — avec l'assurance d'un code 100% propriétaire, sans abonnement captif et avec un accompagnement humain sur le terrain.
             </p>
 
+            <!-- CTA Primaire & Secondaire -->
             <div class="hero-cta-group">
-              <a href="#simulateur" class="btn btn-pill btn-accent btn-lg">
+              <a href="#simulateur" class="btn btn-pill btn-primary-accent btn-lg">
                 <span>Simuler le coût de votre projet</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
-              <a href="#chantiers" class="btn btn-pill btn-secondary btn-lg">
+              <a href="#chantiers" class="btn btn-pill btn-secondary-outline btn-lg">
                 <span>Découvrir nos chantiers</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
               </a>
             </div>
 
-            <!-- Points de réassurance limpides -->
-            <div class="hero-reassurance-row">
-              <div class="reassurance-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Code 100% propriétaire</span>
+            <!-- Carte de réassurance : Fond blanc pur #FFFFFF, Toile #F7F5F0, Bordure 1px, Arrondi doux 16px -->
+            <div class="hero-reassurance-card">
+              <div class="reassurance-cell">
+                <div class="icon-medallion sm">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="reassurance-text-group">
+                  <span class="reassurance-strong">100% Propriétaire</span>
+                  <span class="tech-tag-sharp">CODE LIVRÉ</span>
+                </div>
               </div>
-              <div class="reassurance-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Zéro abonnement forcé</span>
+
+              <div class="reassurance-divider"></div>
+
+              <div class="reassurance-cell">
+                <div class="icon-medallion sm">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                </div>
+                <div class="reassurance-text-group">
+                  <span class="reassurance-strong">Zéro Abonnement</span>
+                  <span class="tech-tag-sharp">0€ MENSUEL</span>
+                </div>
               </div>
-              <div class="reassurance-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Accompagnement local</span>
+
+              <div class="reassurance-divider"></div>
+
+              <div class="reassurance-cell">
+                <div class="icon-medallion sm">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <div class="reassurance-text-group">
+                  <span class="reassurance-strong">Collectif de 6</span>
+                  <span class="tech-tag-sharp">ARTOIS LOCAL</span>
+                </div>
               </div>
             </div>
 
@@ -112,18 +139,21 @@
             <div class="hero-visual-card">
               <img src="./assets/hero.jpg" alt="Matière brute et courbure douce — L'esthétique Be'Cause" class="hero-card-img" loading="eager">
               
-              <!-- Badge Flottant Discret -->
+              <!-- Pastille interactive d'état temps réel avec puce Orange élan -->
               <div class="hero-floating-pill">
-                <span class="pill-dot-green"></span>
-                <div>
-                  <strong>Standard 99/100</strong>
-                  <span>Performance &amp; éco-conception native</span>
+                <span class="activity-pulse-dot"></span>
+                <div class="floating-pill-content">
+                  <div class="floating-pill-row">
+                    <strong>Standard Studio 99/100</strong>
+                    <span class="tech-tag-sharp">LIGHTHOUSE</span>
+                  </div>
+                  <span class="floating-pill-sub">Performance native &bull; Éco-conception A</span>
                 </div>
               </div>
 
               <div class="hero-card-footer">
-                <span>Atelier Be'Cause • Lens</span>
-                <span>Projet Tuteuré MMI</span>
+                <span class="footer-badge-left">Atelier Be'Cause &bull; Lens</span>
+                <span class="tech-tag-sharp footer-badge-tag">MMI 3 ARTOIS</span>
               </div>
             </div>
           </div>
@@ -133,76 +163,232 @@
       </div>
     </section>
 
-    <!-- SECTION MANIFESTE : L'Antidote aux agences classiques (Aéré, Hiérarchie Limpide) -->
-    <section class="section manifesto-section" id="manifeste">
+    <!-- ======================================================================
+         SECTION OFFRE : BENTO GRID ASYMÉTRIQUE STUDIO (Architecture Brute & Douce)
+         ====================================================================== -->
+    <section class="section offer-section" id="manifeste">
       <div class="container">
         
-        <div class="manifesto-grid">
-          <!-- Colonne Gauche : L'Intention Forte -->
-          <div class="manifesto-intro">
-            <span class="section-kicker">[ 01 — RAISON D'ÊTRE &amp; VALEURS ]</span>
-            <h2 class="section-title">
-              L'efficacité et le sur-mesure, sans mauvaise surprise.
-            </h2>
-            <p class="manifesto-narrative">
-              Apporter aux TPE et PME une solution web en ligne de qualité à prix accessible, avec le choix d'une <strong>autonomie totale</strong> ou d'une <strong>prise en charge complète</strong> pour faciliter leur gestion.
-            </p>
-            <p class="manifesto-narrative">
-              Spécialisés dans le site vitrine et l'acquisition locale, nous refusons les projets démesurés ou le e-commerce complexe pour nous consacrer à ce que nous maîtrisons parfaitement : faire rayonner votre savoir-faire.
-            </p>
-            
-            <div class="manifesto-quote-card">
-              <p>« J'ai pas le temps de m'en occuper. Je veux un site propre qui me ramène des devis, sans me faire avoir. »</p>
-              <div class="quote-author">— Julien, 42 ans, Menuisier-agenceur près de Béthune</div>
-            </div>
+        <!-- En-tête de section studio : Hiérarchie radicale et aérée -->
+        <div class="section-header-studio">
+          <div class="section-eyebrow-wrapper">
+            <span class="eyebrow-tag">[ 01 — NOTRE OFFRE &amp; ARCHITECTURE ]</span>
           </div>
+          <h2 class="section-h2">
+            L'architecture brute &amp; le geste doux. Sans mauvaise surprise.
+          </h2>
+          <p class="section-lead-studio">
+            Nous refusons les modèles opaques des agences classiques. Notre atelier conçoit des sites vitrines taillés sur-mesure pour les TPE et PME, alliant rigueur technique de haut niveau et liberté totale d'exploitation.
+          </p>
+        </div>
 
-          <!-- Colonne Droite : Les 3 Valeurs Fondamentales (Projet Tuteuré) -->
-          <div class="manifesto-pillars">
-            
-            <div class="pillar-item">
-              <div class="pillar-header">
-                <span class="pillar-num">01</span>
-                <h3 class="pillar-title">Clarté — S'adresser à vous sans vous perdre</h3>
+        <!-- Bento Grid Asymétrique Studio -->
+        <div class="bento-grid">
+          
+          <!-- CARTE 1 (2/3 de largeur) : L'Atelier Sur-Mesure & Aperçu Écran Interactif -->
+          <article class="bento-card bento-card-large">
+            <div class="bento-card-content">
+              <div class="bento-card-header">
+                <div class="icon-medallion">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21"/>
+                    <line x1="12" y1="17" x2="12" y2="21"/>
+                  </svg>
+                </div>
+                <span class="tech-tag-sharp">SUR-MESURE &bull; SANS TEMPLATE</span>
               </div>
-              <p class="pillar-desc">
-                Devis clairs, explicites et fermes, sans aucun jargon technique. Vous comprenez exactement ce que vous achetez et chaque euro investi a un objectif précis pour votre activité.
+
+              <h3 class="bento-card-title">
+                Code artisanal épuré, vitesse éclair et souveraineté technique
+              </h3>
+              
+              <p class="bento-card-text">
+                Aucun constructeur lourd, aucun template générique ralenti par 40 extensions superflues. Chaque ligne de code est écrite pour charger en moins de 400 millisecondes et convertir vos visiteurs locaux en demandes de devis qualifiées.
               </p>
-              <div class="pillar-meta">
-                <span class="meta-pill">Devis explicites</span>
-                <span class="meta-pill">Paiement échelonné</span>
+
+              <div class="bento-tech-badges">
+                <span class="tech-tag-sm">HTML5 / CSS SÉMANTIQUE</span>
+                <span class="tech-tag-sm">LIGHTHOUSE 99/100</span>
+                <span class="tech-tag-sm">ÉCO-CONCEPTION RÉSISTANTE</span>
               </div>
             </div>
 
-            <div class="pillar-item">
-              <div class="pillar-header">
-                <span class="pillar-num">02</span>
-                <h3 class="pillar-title">Sérénité — Un produit fonctionnel, sans problèmes</h3>
+            <!-- Aperçu d'écran studio riche intégré directement dans la carte -->
+            <div class="bento-screen-preview">
+              <div class="screen-chrome-bar">
+                <div class="chrome-dots">
+                  <span class="dot-c"></span>
+                  <span class="dot-c"></span>
+                  <span class="dot-c"></span>
+                </div>
+                <div class="chrome-url-pill">atelier-dubois.fr/menuiserie-sur-mesure</div>
+                <div class="chrome-badge-score">
+                  <span class="dot-pulse-green"></span>
+                  <span>99 / 100</span>
+                </div>
               </div>
-              <p class="pillar-desc">
-                Nous concevons des architectures solides qui ne nécessitent aucune maintenance superficielle obligatoire. Un site rapide, sécurisé et durable dans le temps.
-              </p>
-              <div class="pillar-meta">
-                <span class="meta-pill">Zéro bug parasite</span>
-                <span class="meta-pill">Garantie &amp; suivi</span>
+              <div class="screen-body-preview">
+                <div class="preview-mini-wireframe">
+                  <div class="wireframe-hero">
+                    <div class="wf-title-block"></div>
+                    <div class="wf-lead-block"></div>
+                    <div class="wf-btn-block"></div>
+                  </div>
+                  <div class="wireframe-stats-strip">
+                    <div class="wf-stat-chip">
+                      <span class="chip-num">0.32s</span>
+                      <span class="chip-lbl">Temps de réponse (LCP)</span>
+                    </div>
+                    <div class="wf-stat-chip">
+                      <span class="chip-num">0€</span>
+                      <span class="chip-lbl">Frais d'hébergement captif</span>
+                    </div>
+                    <div class="wf-stat-chip">
+                      <span class="chip-num">100%</span>
+                      <span class="chip-lbl">Conforme RGPD &amp; Accessibilité</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARTE 2 (1/3 de largeur, Rangée 1) : Souveraineté Totale & Garanties Concrètes -->
+          <article class="bento-card bento-card-sovereignty">
+            <div class="bento-card-header">
+              <div class="icon-medallion">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <span class="tech-tag-sharp">SOUVERAINETÉ TOTALE</span>
+            </div>
+
+            <div class="display-metric-block">
+              <div class="display-number">100%</div>
+              <div class="display-label">Propriétaire de votre site, de votre code source et de vos accès.</div>
+            </div>
+
+            <!-- Checklist dense et concrète pour combler le vide et asseoir la réassurance -->
+            <div class="bento-checklist">
+              <div class="check-item">
+                <span class="check-bullet">✓</span>
+                <span>Code source complet remis sur archive</span>
+              </div>
+              <div class="check-item">
+                <span class="check-bullet">✓</span>
+                <span>Nom de domaine déposé à votre nom</span>
+              </div>
+              <div class="check-item">
+                <span class="check-bullet">✓</span>
+                <span>Zéro abonnement ni licence mensuelle</span>
               </div>
             </div>
 
-            <div class="pillar-item">
-              <div class="pillar-header">
-                <span class="pillar-num">03</span>
-                <h3 class="pillar-title">Autonomie — Propriétaire à 100% de votre outil</h3>
-              </div>
-              <p class="pillar-desc">
-                Vous êtes pleinement capable d'utiliser et d'alimenter votre site sans avoir à faire appel à nous pour la moindre modification. Nom de domaine et code source vous appartiennent sans réserve.
+            <div class="bento-quote-box">
+              <p class="quote-voice">
+                « Je voulais un site propre qui me ramène des devis, sans me faire avoir ni payer un loyer numérique chaque mois. »
               </p>
-              <div class="pillar-meta">
-                <span class="meta-pill">Formation offerte</span>
-                <span class="meta-pill">Code source remis</span>
+              <div class="quote-author-info">
+                <strong>Julien D.</strong>
+                <span>Menuisier-agenceur près de Béthune</span>
               </div>
             </div>
 
-          </div>
+            <div class="bento-card-footer-status">
+              <div class="status-pill-craft">
+                <span class="status-pulse-dot"></span>
+                <span>Transfert intégral des droits à la livraison</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARTE 3 (1/3 de largeur) : Clarté & Zéro Frais Cachés -->
+          <article class="bento-card bento-card-third">
+            <div class="bento-card-header">
+              <div class="icon-medallion">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/>
+                  <path d="M12 18V6"/>
+                </svg>
+              </div>
+              <span class="tech-tag-sharp">TRANSPARENCE FINANCIÈRE</span>
+            </div>
+
+            <div class="display-metric-block">
+              <div class="display-number">0€</div>
+              <div class="display-label">D'abonnement obligatoire après mise en ligne.</div>
+            </div>
+
+            <p class="bento-card-text">
+              Devis ferme et transparent au centime près, étalé sur les étapes clés. Vous ne payez que le travail de conception et de développement réellement livré.
+            </p>
+
+            <div class="bento-card-tags">
+              <span class="tech-tag-sm">PAIEMENT ÉCHELONNÉ</span>
+              <span class="tech-tag-sm">PRIX FERME FIXE</span>
+            </div>
+          </article>
+
+          <!-- CARTE 4 (1/3 de largeur) : Autonomie & Prise en Main Immédiate -->
+          <article class="bento-card bento-card-third">
+            <div class="bento-card-header">
+              <div class="icon-medallion">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                  <polyline points="2 17 12 22 22 17"/>
+                  <polyline points="2 12 12 17 22 12"/>
+                </svg>
+              </div>
+              <span class="tech-tag-sharp">AUTONOMIE IMMÉDIATE</span>
+            </div>
+
+            <div class="display-metric-block">
+              <div class="display-number">1 h</div>
+              <div class="display-label">De formation pratique pour actualiser vos photos et textes en toute simplicité.</div>
+            </div>
+
+            <p class="bento-card-text">
+              Interface d'administration sur-mesure épurée pour modifier vos horaires, ajouter vos nouvelles réalisations ou publier un avis sans dépendre de qui que ce soit.
+            </p>
+
+            <div class="bento-card-tags">
+              <span class="tech-tag-sm">GUIDE VIDÉO DÉDIÉ</span>
+              <span class="tech-tag-sm">MODIFICATIONS SIMPLES</span>
+            </div>
+          </article>
+
+          <!-- CARTE 5 (1/3 de largeur, Rangée 2) : Proximité & Collectif Local -->
+          <article class="bento-card bento-card-third">
+            <div class="bento-card-header">
+              <div class="icon-medallion">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <span class="tech-tag-sharp">COLLECTIF LOCAL</span>
+            </div>
+
+            <div class="display-metric-block">
+              <div class="display-number">6</div>
+              <div class="display-label">Artisans du web réunis dans l'Artois (Lens, Béthune, Arras).</div>
+            </div>
+
+            <p class="bento-card-text">
+              Pas d'intermédiaire commercial ni de sous-traitance opaque. Vous échangez directement avec le binôme designer &amp; développeur en charge de votre chantier.
+            </p>
+
+            <div class="bento-card-tags">
+              <span class="tech-tag-sm">BINÔME DÉDIÉ</span>
+              <span class="tech-tag-sm">RENCONTRE EN ATELIER</span>
+            </div>
+          </article>
+
         </div>
 
       </div>
