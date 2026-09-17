@@ -1408,6 +1408,17 @@ button {
   text-decoration-color: var(--accent);
 }
 
+.direct-social {
+  color: #B9C6EA;
+  font-size: 0.95rem;
+  display: inline-block;
+  margin-top: 0.25rem;
+}
+
+.direct-social strong {
+  color: #FFFFFF;
+}
+
 /* Formulaire Contact */
 .contact-form {
   display: flex;
