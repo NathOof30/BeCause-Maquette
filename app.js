@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
      -------------------------------------------------------------------------- */
   const menuToggle = document.getElementById('menuToggle');
   const headerWrapper = document.getElementById('mainHeader');
-  const navLinks = document.querySelectorAll('.nav-link, .pill-navbar .btn');
+  const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link, .pill-navbar .btn');
 
   if (menuToggle && headerWrapper) {
     menuToggle.addEventListener('click', () => {

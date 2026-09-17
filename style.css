@@ -295,47 +295,68 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
-  background-color: rgba(250, 249, 246, 0.88);
+  gap: 1.5rem;
+  background-color: rgba(250, 249, 246, 0.92);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(20, 33, 61, 0.08);
   border-radius: var(--radius-pill);
-  padding: 0.45rem 0.65rem 0.45rem 1.5rem;
+  padding: 0.4rem 0.65rem 0.4rem 1.25rem;
   box-shadow: 0 12px 36px -8px rgba(20, 33, 61, 0.08);
   width: 100%;
-  max-width: 1120px;
+  max-width: 1140px;
   transition: all var(--transition-smooth);
+  position: relative;
 }
 
 .brand-logo {
   display: flex;
   align-items: center;
-  gap: 0.15rem;
   text-decoration: none;
+  padding: 0.1rem 0.6rem 0.1rem 0;
+  transition: transform var(--transition-fast);
+  flex-shrink: 0;
 }
 
-.logo-text {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 1.35rem;
-  letter-spacing: -0.03em;
-  color: var(--primary);
+.brand-logo:hover {
+  transform: scale(1.02);
 }
 
-.logo-dot {
-  width: 7px;
-  height: 7px;
-  background-color: var(--accent);
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 5px;
+.brand-logo-line {
+  height: 24px;
+  width: auto;
+  max-width: 145px;
+  object-fit: contain;
+  display: block;
 }
 
 .nav-links-wrapper {
   display: flex;
   align-items: center;
   gap: 1.75rem;
+}
+
+.footer-brand-link {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 1.25rem;
+  transition: transform var(--transition-fast);
+}
+
+.footer-brand-link:hover {
+  transform: scale(1.03);
+}
+
+.footer-logo-full {
+  height: 64px;
+  width: auto;
+  max-width: 90px;
+  object-fit: contain;
+  display: block;
+}
+
+.mobile-nav-dropdown {
+  display: none;
 }
 
 .nav-link {
@@ -1685,7 +1706,7 @@ button {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .nav-links-wrapper,
   .status-pill {
     display: none;
@@ -1694,11 +1715,16 @@ button {
     display: flex;
   }
   .pill-navbar {
-    padding: 0.5rem 1rem;
+    padding: 0.45rem 1rem;
+    justify-content: space-between;
   }
-  .header-wrapper.menu-open .nav-links-wrapper {
+  .brand-logo-line {
+    height: 22px;
+  }
+  .header-wrapper.menu-open .mobile-nav-dropdown {
     display: flex;
     flex-direction: column;
+    gap: 0.75rem;
     position: absolute;
     top: 4.5rem;
     left: 1rem;
@@ -1708,6 +1734,13 @@ button {
     border-radius: var(--radius-xl);
     padding: 2rem;
     box-shadow: var(--shadow-lift);
+  }
+  .mobile-nav-link {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--primary);
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--outline-light);
   }
   .hero-cta-group {
     flex-direction: column;
